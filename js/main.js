@@ -227,13 +227,13 @@ function produceSingleItem(sinItemData){
         判斷使用者是否有登入，如果有登入就讓 #message 容器顯示輸入框。
         在 MessageBox 上面註冊事件，當 submit 時將資料上傳。
       */
-    if (currentUser) {
+    /*if (currentUser) {
       $("#message").append(messageBox.inputBox);
-      /*
+      
       取得input的內容 $(this).find("#dialog").val();
       清空input的內容 $(this).find("#dialog").val("");
-      */
-    }
+      
+    }*/
 
     /*
     從資料庫中抓出message資料，並將資料填入MessageBox
@@ -258,8 +258,8 @@ function produceSingleItem(sinItemData){
   
 }
 
-
+/*
 function generateDialog(diaData, messageBox) {
 
 
-}
+}*/
